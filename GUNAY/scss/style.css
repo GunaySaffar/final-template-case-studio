@@ -1,0 +1,118 @@
+body {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+}
+
+#home * {
+  transition: all 0.2s ease;
+}
+#home .myImg {
+  height: 410px;
+  width: 100%;
+  margin: 0 0 70px;
+  background-image: url(../image/case-studies-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+#home .banner {
+  color: white;
+  padding: 80px 0 90px;
+}
+#home .banner h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+#home .banner p {
+  margin: 30px 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+#home .btn-nofill {
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #53b778;
+  border-radius: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+}
+#home .btn-nofill:hover {
+  background: #53b778;
+}
+
+#result * {
+  transition: all 0.2s ease;
+}
+#result .yas {
+  width: 556px;
+  border: 1px solid #e9e9e9;
+  margin-bottom: 95px;
+}
+#result .box-text {
+  margin-left: 30px;
+}
+#result .box-text p {
+  font-size: 16px;
+  padding-top: 10px;
+  line-height: 25px;
+}
+#result .box-text > ul {
+  list-style-type: none;
+  color: #606060;
+  padding-left: 0;
+}
+#result .box-text ul li {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+#result .box-text ul li {
+  margin-bottom: 5px;
+}
+#result .box-text li > i {
+  margin-right: 5px;
+}
+#result .box-text > i {
+  font-weight: 100;
+  color: gray;
+}
+#result .box-text h1 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  padding-top: 25px;
+}
+#result .box-text p {
+  color: #606060;
+}
+#result .btn-view {
+  background: #53b778;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #53b778;
+  border-radius: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+}
+#result .btn-view:hover {
+  background: transparent;
+  color: #53b778;
+}
+#result .myNav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#result .myNav ul > li a {
+  color: #606060;
+  border-radius: 0px;
+  font-family: "Open Sans", arial, sans-serif;
+}
